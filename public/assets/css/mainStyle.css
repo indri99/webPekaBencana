@@ -1,0 +1,381 @@
+body {
+	font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.section-padding{
+	padding: 60px 0px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    color: #4B4B4C;
+}
+a{
+    color: #ffc107;
+}
+a:hover, a:focus{
+    color: #ffc107;
+}
+.bottom-line{
+    width: 25px;
+    height: 3px;
+    background-color: #ffc107;
+}
+/***********************************
+Navigation bar
+************************************/
+.navbar-default .navbar-brand {
+    color: #ffc107;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+}
+.navbar-nav > li > a{
+	padding: 0px;
+	margin: 10px 5px;
+	padding: 10px 15px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+	color: #ffc107;
+}
+.navbar-nav .active a{
+    background: none !important;
+    color: #ffc107 !important;
+    outline: none;
+}
+.btn-login a{
+	background-color: #ffc107;
+	border-radius: 25px;
+	color: #717f86 !important;
+	border: 1px solid #ffc107;
+}
+.btn-login a:hover, .btn-trial a:focus{
+	border: 1px solid #ffc107;
+	background-color: #fff;
+	color: #ffc107 !important;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    height: inherit;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.navbar-default .navbar-brand span{
+	font-weight: 100 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.padding-zero{
+	padding: 0px;
+}
+.mart20{
+	margin-top: 20px;
+}
+/***********************************
+Banner
+************************************/
+.banner{
+	background: url('/assets/img/bg-banner.jpg') no-repeat center top;
+    background-size: cover;
+	min-height: 580px;
+    position: relative;
+}
+.bg-color{
+	background-color: RGBA(255, 193, 7, 0.5);
+	min-height: 580px;
+}
+.text-dec{
+	font-size: 65px;
+	padding: 10px 20px;
+    margin: 15px 0;
+	text-transform: uppercase;
+    color: #4B4B4C;
+}
+.text-border{
+	border: 5px solid #ffc107;
+	display: inline-block;
+	margin-top: 200px;
+}
+.intro-para{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 45px;
+	color: #4B4B4C;
+	margin-top: 30px;
+}
+@-webkit-keyframes rotateplane {
+    0%   {top:10px;}
+    25%  {top:14px;}
+    50%  {top:19px;}
+    75%  {top:24px;}
+    100% {top:28px;}
+}
+@-moz-keyframes rotateplane {
+    0%   {top:10px;}
+    25%  {top:14px;}
+    50%  {top:19px;}
+    75%  {top:24px;}
+    100% {top:28px;}
+}
+@-o-keyframes rotateplane {
+    0%   {top:10px;}
+    25%  {top:14px;}
+    50%  {top:19px;}
+    75%  {top:24px;}
+    100% {top:28px;}
+}
+.padleft-right{
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.big-text{
+    font-size: 35px;
+}
+.small-text{
+    font-size: 16px;
+}
+/***********************************
+Siaga Bencana
+************************************/
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+    background-color: #ffc107;
+}
+[class*=" imghvr-"], [class^="imghvr-"] {
+    background-color: #ffc107;
+}
+/***********************************
+Konten
+************************************/
+#konten {
+    background-color: #f8f8f8;
+}
+.konten-table {
+    box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
+    position: relative;
+}
+.konten-table .konten-head {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.konten-table .konten-head h5 {
+    font-size: 18px;
+    color: #4B4B4C;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #4B4B4C;
+    padding-bottom: 20px;
+}
+.konten-head .title {
+    color: #4B4B4C;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn-bg {
+    border: 0px;
+    border-radius: 0px;
+    color: #4B4B4C !important;
+    padding: 20px 0px;
+    font-weight: bold !important;
+    font-size: 14px;
+    background-color: #ffc107;
+}
+.btn-btn {
+    border: 0px;
+    border-radius: 0px;
+    color: #4B4B4C !important;
+    padding: 20px 0px;
+    font-weight: bold !important;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 25px;
+}
+/***********************************
+Team Member
+************************************/
+.pm-staff-profile-image{
+  width: 150px;
+  height: 150px;
+  background-color: #C6C6C6;
+  border-radius: 50%;
+  display: inline-block;
+}
+.pm-staff-profile-details {
+    padding: 20px 20px;
+}
+.pm-staff-profile-name {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #4B4B4C;
+}
+.pm-staff-profile-title {
+    text-transform: capitalize;
+    color: #717f86;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+/***********************************
+Footer
+************************************/
+.footer {
+    padding: 60px 0 20px;
+    background: #ffc107;
+    color: #4B4B4C;
+}
+/***********************************
+************************************
+Responsive media queries
+************************************
+***********************************/
+@media (min-width: 769px) and (max-width: 980px) {
+    .ser-text {
+    font-size: 20px;
+    }
+    .service-box {
+        margin-bottom: 30px;
+    }
+    .konten-head .amount {
+    font-size: 51px;
+    }
+    .konten-table .konten-head h4 {
+    font-size: 18px;
+    }
+}
+@media (min-width: 451px) and (max-width: 768px) {
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .konten-head .amount {
+    font-size: 51px;
+    }
+    .konten-table .konten-head h4 {
+    font-size: 18px;
+    }
+}
+@media (min-width: 20px) and (max-width: 450px) {
+    .text-dec {
+    font-size: 20px;
+    }
+    .big-text {
+    font-size: 30px;
+    }
+    .small-text {
+    font-size: 14px;
+    }
+    .intro-para {
+    font-size: 30px;
+    }
+    .header-section p{
+        font-size: 14px;
+    }
+    .heading {
+    margin-bottom: 20px;
+    }
+    .service-box, .text-comment, .konten-table{
+        margin-bottom: 30px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+    }
+}
+/***********************************
+
+************************************/
+.banner-sb{
+    background: url('/assets/img/bg-banner.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 290px;
+    position: relative;
+}
+.bg-color-sb{
+    background-color: RGBA(255, 193, 7, 0.5);
+    min-height: 290px;
+}
+.text-dec-sb{
+    font-size: 45px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    color: #4B4B4C;
+}
+.text-border-sb{
+    border: 5px solid #ffc107;
+    display: inline-block;
+    margin-top: 50px;
+}
+.wrapper {
+  position: relative;
+  top: 0;
+  height: 100vh; }
+  .wrapper.wrapper-full-page {
+    min-height: 100vh;
+    height: auto; }
+}
+.main-panel {
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+  background-color: #E3E3E3;
+  background-color: #ebecf1;
+  transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+  .main-panel > .content {
+    padding: 0 30px 30px;
+    min-height: calc(100vh - 123px);
+    margin-top: -100px; }
+  .main-panel > .navbar {
+    margin-bottom: 0; }
+  .main-panel .header {
+    margin-bottom: 50px; }
+}
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1); }
+  .card [data-notify="container"].alert {
+    min-width: auto;
+    left: unset !important;
+    right: unset !important; }
+  .card .card-body {
+    padding: 15px 15px 10px 15px; }
+    .card .card-body.table-full-width {
+      padding-left: 0;
+      padding-right: 0; }
+  .card .card-header {
+    padding: 15px 15px 0;
+    border: 0; }
+    .card .card-header:not([data-background-color]) {
+      background-color: transparent; }
+    .card .card-header .card-title {
+      margin-top: 10px; }
+}
+img{page-break-inside:avoid}
+img{vertical-align:middle;border-style:none}
+img-fluid{max-width:100%;height:auto}
+.mx-auto{margin-right:auto!important}
+.mx-auto{margin-left:auto!important}
+.d-block{display:block!important}
